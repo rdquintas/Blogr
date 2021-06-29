@@ -23,20 +23,20 @@ function addRemoveConnect() {
 // jQuery
 // Funções para Adicionar/Remover menu PC
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     // Hover "Product"
-    $(".product, .subnav-content-product").hover(function() {
+    $(".product, .subnav-content-product").hover(function () {
         $(".subnav-content-product").toggleClass("remove");
     });
 
     // Hover "Company"
-    $(".company, .subnav-content-company").hover(function() {
+    $(".company, .subnav-content-company").hover(function () {
         $(".subnav-content-company").toggleClass("remove");
     });
 
     // Hover "Connect"
-    $(".connect, .subnav-content-connect").hover(function() {
+    $(".connect, .subnav-content-connect").hover(function () {
         $(".subnav-content-connect").toggleClass("remove");
     });
 
